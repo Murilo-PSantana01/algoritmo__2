@@ -14,7 +14,7 @@ public class exerc13 {
         System.out.println("Digite o segundo número: ");
         double n2 = entrada.nextDouble();
 
-        if (operacao == '+'){
+        if (operacao == '+') {
             double resultado = n1+n2;
             System.out.printf("%.2f + %.2f = %.2f", n1, n2, resultado);
         }else if (operacao == '-'){
