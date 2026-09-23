@@ -20,44 +20,43 @@ public class exer6 {
 
         double preco = 0;
         switch(id){
-            case 100:
+            case 100 -> {
                 preco = 1.2 * qnt;
                 System.out.println("Cachorro Quente");
                 System.out.printf("%d unidades - R$ %.2f", qnt, preco);
-            break;
+            }
  
-            case 101:
+            case 101 -> {
                 preco = 1.3 * qnt;
                 System.out.println("Bauru Simples");
                 System.out.printf("%d unidades - R$ %.2f", qnt, preco);
-            break;
+            }
  
-            case 102:
+            case 102 -> {
                 preco = 1.5 * qnt;
                 System.out.println("Bauru com Ovo");
                 System.out.printf("%d unidades - R$ %.2f", qnt, preco);
-            break;
+            }
  
-            case 103:
+            case 103 -> {
                 preco = 1.2 * qnt;
                 System.out.println("Hambúrguer");
                 System.out.printf("%d unidades - R$ %.2f", qnt, preco);
-            break;
+            }
  
-            case 104:
+            case 104 -> {
                 preco = 1.3 * qnt;
                 System.out.println("Cheeseburguer");
                 System.out.printf("%d unidades - R$ %.2f", qnt, preco);
-            break;
+            }
  
-            case 105:
+            case 105 -> {
                 preco = 1.0 * qnt;
                 System.out.println("Refrigerante");
                 System.out.printf("%d unidades - R$ %.2f", qnt, preco);
-            break;
+            }
  
-            default:
-                System.out.println("Código do produto inválido!");
+            default -> System.out.println("Código do produto inválido!");
         }
         entrada.close();
     }
